@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"584ea210020e8f50","type":"text","text":"ФУНДАМЕНТ","x":-380,"y":-580,"width":250,"height":60,"color":"1"},
 		{"id":"e43192b450f3cafc","type":"text","text":"Компьютер\n\nОписание: тестировка\nСвязанные ресурсы: https://www.youtube.com/\n","x":-380,"y":-400,"width":250,"height":60,"color":"3"},
-		{"id":"c31da649a11d272d","type":"file","file":"rise-beyond/Computer Science/Как работает CPU, RAM, Диск.md","x":-20,"y":-590,"width":400,"height":140,"color":"6"},
+		{"id":"c31da649a11d272d","type":"file","file":"rise-beyond/Computer Science/Как работает CPU, RAM, Диск.md","x":-20,"y":-590,"width":400,"height":50,"color":"6"},
 		{"id":"9e8e245b8d3cc593","type":"text","text":"Стек и Куча (Stack vs Heap)","x":-20,"y":-400,"width":250,"height":60,"color":"4"},
 		{"id":"973f1f4fea89ac09","type":"text","text":"Командная строка Linux/Mac/WSL","x":-20,"y":-280,"width":250,"height":60,"color":"4"},
 		{"id":"deda4b67bf5ce2df","type":"text","text":"Bash-скриптинг","x":-20,"y":-160,"width":250,"height":60,"color":"4"},
