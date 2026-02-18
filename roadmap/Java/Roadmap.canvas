@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"584ea210020e8f50","type":"text","text":"ФУНДАМЕНТ","x":-380,"y":-580,"width":250,"height":60},
+		{"id":"e43192b450f3cafc","type":"text","text":"Компьютер","x":-380,"y":-400,"width":250,"height":60},
+		{"id":"c31da649a11d272d","type":"file","file":"rise-beyond/Computer Science/Как работает CPU, RAM, Диск.md","x":-20,"y":-590,"width":400,"height":140},
+		{"id":"9e8e245b8d3cc593","x":-20,"y":-400,"width":250,"height":60,"type":"text","text":"Стек и Куча (Stack vs Heap)"},
+		{"id":"973f1f4fea89ac09","x":-20,"y":-280,"width":250,"height":60,"type":"text","text":"Командная строка Linux/Mac/WSL"},
+		{"id":"deda4b67bf5ce2df","type":"text","text":"Bash-скриптинг","x":-20,"y":-160,"width":250,"height":60},
+		{"id":"a33b867484465a34","type":"text","text":"Терминал","x":-380,"y":-280,"width":250,"height":60},
+		{"id":"a90481b2537ed7f1","type":"text","text":"Конец","x":-380,"y":-130,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"cbe20528d87efc6c","fromNode":"584ea210020e8f50","fromSide":"bottom","toNode":"e43192b450f3cafc","toSide":"top"},
+		{"id":"2b0490d7be5210ac","fromNode":"e43192b450f3cafc","fromSide":"right","toNode":"c31da649a11d272d","toSide":"left"},
+		{"id":"1342859904ac1d7f","fromNode":"e43192b450f3cafc","fromSide":"right","toNode":"9e8e245b8d3cc593","toSide":"left"},
+		{"id":"eedb431325369420","fromNode":"e43192b450f3cafc","fromSide":"bottom","toNode":"a33b867484465a34","toSide":"top"},
+		{"id":"f622675f316149b8","fromNode":"a33b867484465a34","fromSide":"right","toNode":"973f1f4fea89ac09","toSide":"left"},
+		{"id":"494891efcd220ed0","fromNode":"a33b867484465a34","fromSide":"right","toNode":"deda4b67bf5ce2df","toSide":"left"},
+		{"id":"9c4b066ea1f09799","fromNode":"a33b867484465a34","fromSide":"bottom","toNode":"a90481b2537ed7f1","toSide":"top"}
+	]
+}
