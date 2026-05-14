@@ -2,9 +2,9 @@
 
 ## 🗺️ Навигация по модулям
 
-text
 
-```
+
+```csharp
 Модуль 1  — Основы Computer Science
 Модуль 2  — Основы сетей и протоколов
 Модуль 3  — Основы System Design
@@ -31,9 +31,9 @@ text
 
 ### Уровни сложности
 
-text
 
-```
+
+```csharp
 [B] — Beginner     → Читать, понять концепцию
 [I] — Intermediate → Практика на тестовом стенде
 [A] — Advanced     → Применять в реальных задачах
@@ -44,9 +44,9 @@ text
 
 ## 📘 МОДУЛЬ 1 — Основы Computer Science
 
-text
 
-```
+
+```csharp
 1.   [B] [CS]  Как работает память: Stack vs Heap
 2.   [B] [CS]  Типы данных: числа, строки, булевы — представление в памяти
 3.   [B] [CS]  Массивы vs связные списки: когда что использовать
@@ -75,9 +75,9 @@ text
 
 ## 🌐 МОДУЛЬ 2 — Основы сетей и протоколов
 
-text
 
-```
+
+```csharp
 23.  [B] [NET]  Модель OSI: 7 уровней — что происходит с пакетом
 24.  [B] [NET]  IP адресация: IPv4, IPv6, подсети, маски
 25.  [B] [NET]  TCP: handshake, надёжность, flow control, congestion control
@@ -114,9 +114,9 @@ text
 
 ## 🏗️ МОДУЛЬ 3 — Основы System Design
 
-text
 
-```
+
+```csharp
 53.  [B] [SD]  Что такое System Design и как думать архитектурно
 54.  [B] [SD]  Вертикальное vs горизонтальное масштабирование
 55.  [B] [SD]  Stateful vs Stateless сервисы: критично для игровых серверов
@@ -152,9 +152,9 @@ text
 
 ## 💾 МОДУЛЬ 4 — Базы данных
 
-text
 
-```
+
+```csharp
 81.  [B] [DB]  Реляционные vs NoSQL: когда что выбирать для игры
 82.  [B] [DB]  ACID: Atomicity, Consistency, Isolation, Durability
 83.  [B] [DB]  Индексы: что это и почему ускоряет запросы
@@ -197,9 +197,9 @@ text
 
 ## ⚡ МОДУЛЬ 5 — Кэширование
 
-text
 
-```
+
+```csharp
 117. [B] [CACHE]  Что такое кэш и зачем он нужен
 118. [B] [CACHE]  Cache Hit vs Cache Miss: метрики эффективности
 119. [B] [CACHE]  TTL: время жизни записи в кэше
@@ -225,9 +225,9 @@ text
 
 ## 📨 МОДУЛЬ 6 — Очереди и стриминг
 
-text
 
-```
+
+```csharp
 136. [B] [MSG]  Message Queue: зачем нужна асинхронность
 137. [B] [MSG]  Producer / Consumer паттерн
 138. [B] [MSG]  At-most-once, At-least-once, Exactly-once: гарантии доставки
@@ -258,9 +258,9 @@ text
 
 ## ☸️ МОДУЛЬ 7 — Kubernetes и контейнеры
 
-text
 
-```
+
+```csharp
 160. [B] [K8S]  Docker: образы, слои, Dockerfile — базовое понимание
 161. [B] [K8S]  Docker: volumes, networks, docker-compose
 162. [B] [K8S]  Kubernetes: зачем нужен оркестратор
@@ -298,9 +298,9 @@ text
 
 ## 📈 МОДУЛЬ 8 — Мониторинг и наблюдаемость
 
-text
 
-```
+
+```csharp
 191. [B] [OBS]  Три столпа наблюдаемости: Metrics, Logs, Traces
 192. [B] [OBS]  RED метод: Rate, Errors, Duration — для игровых API
 193. [B] [OBS]  USE метод: Utilization, Saturation, Errors — для серверов
@@ -317,7 +317,7 @@ text
 204. [I] [OBS]  Zabbix: агенты, шаблоны, триггеры для legacy инфры
 205. [A] [OBS]  Grafana Loki: LogQL, label-based indexing
 206. [A] [OBS]  Thanos / Mimir: долгосрочное хранение метрик
-207. [A] [OBS]  Distributed Tracing: spans, trace context propagation
+207. [A] [OBS]  Distributed Tracing: spans, trace con propagation
 208. [A] [OBS]  Jaeger: трейсинг запросов через микросервисы игры
 209. [A] [OBS]  OpenTelemetry: стандарт инструментирования
 210. [A] [OBS]  Grafana Tempo: хранение трейсов
@@ -333,9 +333,9 @@ text
 
 ## 🔐 МОДУЛЬ 9 — Безопасность и PKI
 
-text
 
-```
+
+```csharp
 217. [B] [SEC]  PKI: Certificate Authority, chain of trust, сертификаты
 218. [B] [SEC]  X.509 сертификаты: структура, поля, срок действия
 219. [B] [SEC]  TLS mTLS: взаимная аутентификация сервисов
@@ -370,9 +370,9 @@ text
 
 ## 💿 МОДУЛЬ 10 — Хранилища и резервное копирование
 
-text
 
-```
+
+```csharp
 245. [B] [STR]  Block vs File vs Object Storage: разница и применение
 246. [B] [STR]  RAID уровни: 0, 1, 5, 6, 10 — когда что выбирать
 247. [B] [STR]  HDD vs SSD vs NVMe: характеристики, IOPS, latency
@@ -393,9 +393,9 @@ text
 
 ## 🔄 МОДУЛЬ 11 — CI/CD и DevOps
 
-text
 
-```
+
+```csharp
 259. [B] [CICD]  Git: ветки, merge, rebase, конфликты
 260. [B] [CICD]  Git Flow vs Trunk-Based Development
 261. [B] [CICD]  Что такое CI/CD: концепция автоматизации
@@ -422,12 +422,12 @@ text
 
 ## 🏛️ МОДУЛЬ 12 — Архитектурные паттерны
 
-text
 
-```
+
+```csharp
 279. [B] [ARCH]  Монолит: плюсы, минусы, когда оправдан для игры
 280. [B] [ARCH]  Микросервисы: разложение по доменам игры
-281. [B] [ARCH]  Domain-Driven Design: ubiquitous language, bounded contexts
+281. [B] [ARCH]  Domain-Driven Design: ubiquitous language, bounded cons
 282. [B] [ARCH]  Синхронная vs асинхронная коммуникация
 283. [I] [ARCH]  API Design: REST best practices для игрового backend
 284. [I] [ARCH]  Strangler Fig: постепенная миграция с монолита
@@ -451,9 +451,9 @@ text
 
 ## 🎮 МОДУЛЬ 13 — Game Backend (специфика)
 
-text
 
-```
+
+```csharp
 299. [B] [GB]   Архитектура онлайн-игры: все компоненты и связи
 300. [B] [GB]   Типы игровых серверов: Dedicated vs P2P vs Listen Server
 301. [B] [GB]   CCU (Concurrent Users): как считать и планировать мощности
@@ -492,9 +492,9 @@ text
 
 ## 🌐 МОДУЛЬ 14 — Game Networking (специфика)
 
-text
 
-```
+
+```csharp
 331. [B] [GN]   Почему UDP а не TCP для игр: latency vs reliability
 332. [B] [GN]   Понятие tick rate: 20/60/128 tick серверы
 333. [B] [GN]   Пинг, джиттер, потеря пакетов: влияние на геймплей
@@ -527,9 +527,9 @@ text
 
 ## 📊 МОДУЛЬ 15 — Game Analytics (специфика)
 
-text
 
-```
+
+```csharp
 357. [B] [GA]   Зачем аналитика в играх: примеры влияния на дизайн
 358. [B] [GA]   Ключевые игровые метрики: DAU, MAU, ARPU, ARPPU
 359. [B] [GA]   Retention: D1, D7, D30 — что считать нормой
@@ -559,9 +559,9 @@ text
 
 ## 💰 МОДУЛЬ 16 — Game Economy и LiveOps (специфика)
 
-text
 
-```
+
+```csharp
 380. [B] [ECO]  Virtual Economy: soft currency vs hard currency
 381. [B] [ECO]  Монетизация: IAP, Battle Pass, Loot Box, Subscription
 382. [B] [ECO]  Inflation в игровой экономике: причины и последствия
@@ -589,9 +589,9 @@ text
 
 ## 🛡️ МОДУЛЬ 17 — Anti-Cheat системы (специфика)
 
-text
 
-```
+
+```csharp
 401. [B] [AC]   Типы читов: aimbot, wallhack, speedhack, exploits
 402. [B] [AC]   Client-side vs Server-side валидация
 403. [B] [AC]   Авторитетный сервер: почему клиент не должен доверять
@@ -615,9 +615,9 @@ text
 
 ## ⚡ МОДУЛЬ 18 — Производительность и оптимизация
 
-text
 
-```
+
+```csharp
 418. [B] [PERF]  Что такое профилирование: CPU, Memory, IO, Network
 419. [B] [PERF]  Bottleneck: как найти узкое место в системе
 420. [B] [PERF]  Benchmarking: методология правильных измерений
@@ -641,9 +641,9 @@ text
 
 ## 🖥️ МОДУЛЬ 19 — Железо и операционные системы
 
-text
 
-```
+
+```csharp
 435. [B] [HW]   CPU: cores, threads, clock speed, cache L1/L2/L3
 436. [B] [HW]   RAM: DDR4 vs DDR5, ECC память, каналы
 437. [B] [HW]   Disk: HDD vs SSD vs NVMe — IOPS, latency, throughput
@@ -669,9 +669,9 @@ text
 
 ## 🧠 МОДУЛЬ 20 — Карьера и система мышления
 
-text
 
-```
+
+```csharp
 454. [B] [CAR]  Как читать техническую документацию эффективно
 455. [B] [CAR]  Как строить тестовый стенд дома: минимальный набор
 456. [B] [CAR]  Как подходить к изучению новых технологий
@@ -693,9 +693,9 @@ text
 
 ## 📊 Итоговая статистика
 
-text
 
-```
+
+```csharp
 ┌─────────────────────────────────────────┐
 │           Всего тем: 468                │
 ├──────────────┬──────────────────────────┤
@@ -715,9 +715,9 @@ text
 
 ## 🗓️ Рекомендуемый план изучения
 
-text
 
-```
+
+```csharp
 Фаза 1 — Фундамент (3 месяца)
 ├── Модуль 1  [B] CS основы
 ├── Модуль 2  [B][I] Сети

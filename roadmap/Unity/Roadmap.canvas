@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"4751a07822eb413c","type":"file","file":"rise-beyond/Unity/Csharp - Интерфейсы.md","x":-600,"y":-900,"width":220,"height":130,"color":"2"},
+		{"id":"7804bc5c0585110f","type":"file","file":"rise-beyond/Unity/Csharp - Delegates, Events, Action и Func.md","x":-340,"y":-900,"width":280,"height":130,"color":"2"},
+		{"id":"3ae179070dd5db87","type":"file","file":"rise-beyond/Unity/Csharp - Наследование и полиморфизм на примерах Unity.md","x":-600,"y":-740,"width":240,"height":130,"color":"2"},
+		{"id":"ea58a1d332f0c9d0","type":"text","text":"C# Core","x":-505,"y":-1060,"width":250,"height":60,"color":"6"},
+		{"id":"3b44f90b1131793a","type":"text","text":"Unity MVP for Start ","x":-185,"y":-1280,"width":250,"height":60,"color":"3"},
+		{"id":"4f338c7066fc4355","type":"file","file":"rise-beyond/Unity/UnityCore - Physics.md","x":200,"y":-900,"width":290,"height":130,"color":"4"},
+		{"id":"747b357fb6607cb2","type":"file","file":"rise-beyond/Unity/UnityCore - New Input System.md","x":520,"y":-900,"width":280,"height":130,"color":"4"},
+		{"id":"3ed33fb2a12d3688","type":"file","file":"rise-beyond/Unity/UnityCore - ScriptableObjects.md","x":840,"y":-900,"width":400,"height":130,"color":"4"},
+		{"id":"c6f8ff5327a66220","type":"file","file":"rise-beyond/Unity/UnityCore - Serialization.md","x":200,"y":-720,"width":290,"height":120,"color":"4"},
+		{"id":"03c8b98cb6861c5e","type":"file","file":"rise-beyond/Unity/UnityCore - Addressables.md","x":520,"y":-720,"width":280,"height":120,"color":"4"},
+		{"id":"706c7a3ac1af53d7","type":"file","file":"rise-beyond/Unity/UnityCore  - State Machine.md","x":840,"y":-720,"width":400,"height":120,"color":"4"},
+		{"id":"495237f215f71dcb","type":"file","file":"rise-beyond/Unity/UnityCore - Паттерн Observer.md","x":200,"y":-560,"width":290,"height":120,"color":"4"},
+		{"id":"a700fed73f9c7d0d","type":"file","file":"rise-beyond/Unity/UnityCore - Паттерн Factory.md","x":520,"y":-560,"width":280,"height":120,"color":"4"},
+		{"id":"35df68467c8e46bc","type":"file","file":"rise-beyond/Unity/UnityCore - Object Pool.md","x":840,"y":-560,"width":400,"height":120,"color":"4"},
+		{"id":"88244bba10b3f6eb","type":"text","text":"Unity Core","x":590,"y":-1090,"width":250,"height":60,"color":"6"},
+		{"id":"ce83c2746b9ce6e6","type":"file","file":"rise-beyond/Unity/UnityCore - UI Toolkit.md","x":840,"y":-400,"width":400,"height":120,"color":"4"},
+		{"id":"c380841101577ae5","type":"file","file":"rise-beyond/Unity/UnityCore  - Cinemachine.md","x":200,"y":-400,"width":600,"height":120,"color":"4"},
+		{"id":"83864c66b71df469","x":200,"y":-220,"width":600,"height":140,"color":"4","type":"file","file":"rise-beyond/Unity/UnityCore - Profiling.md"},
+		{"id":"c904d978f0cdd363","type":"file","file":"rise-beyond/Unity/UnityAdvanced - DOTween.md","x":200,"y":240,"width":300,"height":120,"color":"2"},
+		{"id":"fe04bce33f9d92d2","type":"file","file":"rise-beyond/Unity/UnityAdvanced - UniRx.md","x":530,"y":240,"width":280,"height":120,"color":"2"},
+		{"id":"6cb70ebea2c1218a","type":"file","file":"rise-beyond/Unity/UnityAdvanced - UniTask.md","x":200,"y":440,"width":300,"height":120,"color":"2"},
+		{"id":"35b5de9f05a5c0c9","type":"text","text":"Unity Advanced","x":600,"y":120,"width":250,"height":60,"color":"1"},
+		{"id":"5820bce12c0d3159","type":"file","file":"rise-beyond/Unity/UnityAdvanced - R3.md","x":850,"y":240,"width":400,"height":120,"color":"2"},
+		{"id":"632670924fe01540","type":"file","file":"rise-beyond/Unity/UnityAdvanced - VContainer.md","x":530,"y":440,"width":720,"height":120,"color":"2"},
+		{"id":"db292b0f157c67a8","type":"text","text":"Unity Core ✅","x":600,"y":0,"width":250,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"4c12d4ba044a83c8","fromNode":"3b44f90b1131793a","fromSide":"bottom","toNode":"ea58a1d332f0c9d0","toSide":"top","color":"5"},
+		{"id":"8eb5c3c06c3f1233","fromNode":"ea58a1d332f0c9d0","fromSide":"bottom","toNode":"4751a07822eb413c","toSide":"top","color":"4"},
+		{"id":"abec4486e759a4b9","fromNode":"ea58a1d332f0c9d0","fromSide":"left","toNode":"3ae179070dd5db87","toSide":"left","color":"4"},
+		{"id":"f473e9a20bb05e59","fromNode":"ea58a1d332f0c9d0","fromSide":"right","toNode":"7804bc5c0585110f","toSide":"top","color":"4"},
+		{"id":"4df35c5c1706a7da","fromNode":"3b44f90b1131793a","fromSide":"bottom","toNode":"88244bba10b3f6eb","toSide":"top","color":"6"},
+		{"id":"d0de17841df35791","fromNode":"88244bba10b3f6eb","fromSide":"bottom","toNode":"4f338c7066fc4355","toSide":"top","toEnd":"none","color":"5"},
+		{"id":"de78cdea3dd5a59f","fromNode":"88244bba10b3f6eb","fromSide":"bottom","toNode":"747b357fb6607cb2","toSide":"top","toEnd":"none","color":"5"},
+		{"id":"7f539284fb76f37d","fromNode":"88244bba10b3f6eb","fromSide":"bottom","toNode":"3ed33fb2a12d3688","toSide":"top","toEnd":"none","color":"5"},
+		{"id":"774659bb58a921bf","fromNode":"db292b0f157c67a8","fromSide":"bottom","toNode":"35b5de9f05a5c0c9","toSide":"top","color":"2"}
+	]
+}
